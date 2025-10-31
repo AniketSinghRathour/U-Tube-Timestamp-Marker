@@ -4,4 +4,4 @@ It is a chrome extension that i created to save the timestamps of youtube vdos w
 It helps in quick searching and retrieval of any saved topic -> saving a lot of time.
 
 ## Preview of Extension on Youtube
-![Extension's UI](./preview)
+![Extension's UI](./preview.png)
