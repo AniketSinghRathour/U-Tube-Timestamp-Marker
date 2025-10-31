@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U-Tube Timestamp Marker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>U-Tube Timestamp Marker</h1>
+            <div class="video-title" id="videoTitle"></div>
+        </div>
+
+        <div class="timestamp-input">
+            <div class="current-time" id="currentTime">0:00</div>
+            <input type="text" id="noteInput" placeholder="Add a note..." />
+            <button id="pinButton">
+                <span class="pin-icon">📌</span>
+            </button>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search timestamps..." />
+            <div class="search-icon">🔍</div>
+        </div>
+
+        <div class="timestamps" id="timestampsList">
+            <!-- Timestamps will be inserted here -->
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
